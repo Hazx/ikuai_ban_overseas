@@ -46,6 +46,7 @@ bash get_overseas_cidr.sh
 - 打开 `安全设置` - `ACL 规则`
   
 - 点击右上角的【导入】，选择 `overseas_ikuai_acl-20xxxxxx.txt` 文件，勾选“合并到当前数据”，确定导入。
+
 ![ACL 规则](img/2.png)
 
 
