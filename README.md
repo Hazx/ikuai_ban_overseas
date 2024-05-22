@@ -10,8 +10,11 @@
 # 适用情况
 
 - 爱快免费版
+
 - 具备公网 IPv4
+
 - 向公网映射了 NAS 服务、WEB 服务、Windows 远程桌面、SSH 等。
+
 - 不需要向境外用户提供直连的访问服务
 
 
@@ -33,10 +36,15 @@ bash get_overseas_cidr.sh
 ## 导入爱快
 
 - 登录爱快面板
+  
 - 打开 `网络设置` - `终端分组设置` - `IP 分组`
+  
 - 点击右上角的【导入】，选择 `overseas_ikuai_ipgroup-20xxxxxx.txt` 文件，勾选“合并到当前数据”，确定导入。
+  
 ![IP 分组](img/1.png)
+
 - 打开 `安全设置` - `ACL 规则`
+  
 - 点击右上角的【导入】，选择 `overseas_ikuai_acl-20xxxxxx.txt` 文件，勾选“合并到当前数据”，确定导入。
 ![ACL 规则](img/2.png)
 
@@ -44,4 +52,5 @@ bash get_overseas_cidr.sh
 # 缺陷
 
 - 所采用的 IP 库虽然已非常完整全面，但仍不能精准覆盖所有境外 IP 网段，会有漏网之鱼。
+  
 - 若有 BT 或 PT 服务，将无法与境外用户共享数据。
