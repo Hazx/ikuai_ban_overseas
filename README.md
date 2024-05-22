@@ -1,0 +1,2 @@
+# ikuai_ban_overseas
+为爱快导入IP库和规则来屏蔽境外IP
